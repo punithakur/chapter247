@@ -1,0 +1,47 @@
+.edit-blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.edit-blog-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+.edit-blog-box input,
+.edit-blog-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+}
+
+.edit-blog-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6e8efb;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.edit-blog-box button:hover {
+    background-color: #a777e3;
+}
+
+form{
+    width: 375px;
+}
